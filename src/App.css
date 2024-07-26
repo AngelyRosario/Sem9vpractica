@@ -1,0 +1,47 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.opcion-container {
+  margin-bottom: 10px;
+}
+
+.opcion-container input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: #8405ce;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9875d8;
+}
+.contador-container {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #c0e7f8; /* Color celeste de fondo */
+  padding: 10px;
+  border: 1px solid #000; /* Borde negro */
+  width: 200px; /* Ancho del contenedor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  z-index: 100; /* Para estar encima del contenido principal */
+}
+
+.contador {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+
